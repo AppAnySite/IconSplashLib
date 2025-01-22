@@ -1,0 +1,743 @@
+====================================================================================================================================================
+====================================================================================================================================================
+                                        WITHOUT LIBRARY AND WITHOUT PROJECT PATH
+====================================================================================================================================================
+====================================================================================================================================================
+
+====================================================================================================================================================
+WITHOUT DEV AND LIB FLAG
+====================================================================================================================================================
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder playstore-icon
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type foreground
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type round
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type  launcher
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type foreground
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type round
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type launcher
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type foreground
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type round
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type launcher
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type foreground
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type round
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type launcher
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type foreground
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type round
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type launcher
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --icon-type foreground
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder playstore-icon --icon-type launcher
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --icon-type launcher
+
+====================================================================================================================================================
+WITH DEV FLAG
+====================================================================================================================================================
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder playstore-icon --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type foreground --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type round --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type  launcher --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type foreground --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type round --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type launcher --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type foreground --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type round --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type launcher --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type foreground --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type round --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type launcher --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type foreground --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type round --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type launcher --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --icon-type foreground --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder playstore-icon --icon-type launcher --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --icon-type launcher --dev
+
+====================================================================================================================================================
+WITH LIB FLAG
+====================================================================================================================================================
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder playstore-icon -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type foreground -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type round -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type  launcher -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type foreground -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type round -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type launcher -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type foreground -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type round -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type launcher -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type foreground -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type round -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type launcher -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type foreground -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type round -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type launcher -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --icon-type foreground -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder playstore-icon --icon-type launcher -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --icon-type launcher -l
+
+====================================================================================================================================================
+WITH LIB AND DEV FLAG
+====================================================================================================================================================
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder playstore-icon -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type foreground -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type round -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type  launcher -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type foreground -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type round -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type launcher -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type foreground -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type round -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type launcher -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type foreground -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type round -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type launcher -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type foreground -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type round -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type launcher -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --icon-type foreground -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder playstore-icon --icon-type launcher -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --icon-type launcher -l --dev
+
+====================================================================================================================================================
+WITHOUT DEV AND LIB FLAG
+====================================================================================================================================================
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x
+
+====================================================================================================================================================
+WITH DEV FLAG
+====================================================================================================================================================
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x --dev
+
+====================================================================================================================================================
+WITH LIB FLAG
+====================================================================================================================================================
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x -l
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x -l
+
+====================================================================================================================================================
+WITH LIB AND DEV FLAG
+====================================================================================================================================================
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x -l --dev
+./generate_assets.sh -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x -l --dev
+
+====================================================================================================================================================
+====================================================================================================================================================
+                                        WITHOUT LIBRARY AND WITH PROJECT PATH
+====================================================================================================================================================
+====================================================================================================================================================
+
+====================================================================================================================================================
+WITHOUT DEV AND LIB FLAG
+====================================================================================================================================================
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type foreground
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type round
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type  launcher
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type foreground
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type round
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type launcher
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type foreground
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type round
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type launcher
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type foreground
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type round
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type launcher
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type foreground
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type round
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type launcher
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --p PROJECT_PATH -icon-type foreground
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon --p PROJECT_PATH -icon-type launcher
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --p PROJECT_PATH -icon-type launcher
+
+====================================================================================================================================================
+WITH DEV FLAG
+====================================================================================================================================================
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type foreground --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type round --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type  launcher --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type foreground --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type round --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type launcher --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type foreground --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type round --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type launcher --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type foreground --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type round --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type launcher --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type foreground --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type round --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type launcher --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --p PROJECT_PATH -icon-type foreground --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon --p PROJECT_PATH -icon-type launcher --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --p PROJECT_PATH -icon-type launcher --dev
+
+====================================================================================================================================================
+WITH LIB FLAG
+====================================================================================================================================================
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type foreground -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type round -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type  launcher -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type foreground -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type round -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type launcher -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type foreground -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type round -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type launcher -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type foreground -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type round -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type launcher -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type foreground -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type round -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type launcher -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --p PROJECT_PATH -icon-type foreground -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon --p PROJECT_PATH -icon-type launcher -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --p PROJECT_PATH -icon-type launcher -l
+
+====================================================================================================================================================
+WITH LIB AND DEV FLAG
+====================================================================================================================================================
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type foreground -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type round -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type  launcher -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type foreground -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type round -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type launcher -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type foreground -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type round -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type launcher -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type foreground -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type round -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type launcher -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type foreground -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type round -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type launcher -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --p PROJECT_PATH -icon-type foreground -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon --p PROJECT_PATH -icon-type launcher -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --p PROJECT_PATH -icon-type launcher -l --dev
+
+====================================================================================================================================================
+WITHOUT DEV AND LIB FLAG
+====================================================================================================================================================
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x
+
+====================================================================================================================================================
+WITH DEV FLAG
+====================================================================================================================================================
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x --dev
+
+====================================================================================================================================================
+WITH LIB FLAG
+====================================================================================================================================================
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x -l
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x -l
+
+====================================================================================================================================================
+WITH LIB AND DEV FLAG
+====================================================================================================================================================
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x -l --dev
+./generate_assets.sh -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x -l --dev
+
+====================================================================================================================================================
+====================================================================================================================================================
+                                        WITH LIBRARY AND WITHOUT PROJECT PATH
+====================================================================================================================================================
+====================================================================================================================================================
+
+====================================================================================================================================================
+WITHOUT DEV AND LIB FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-ldpi
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder playstore-icon
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder ic_launcher-web
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type foreground
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type round
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type  launcher
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type foreground
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type round
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type launcher
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type foreground
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type round
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type launcher
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type foreground
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type round
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type launcher
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type foreground
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type round
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type launcher
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --icon-type foreground
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder playstore-icon --icon-type launcher
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder ic_launcher-web --icon-type launcher
+
+====================================================================================================================================================
+WITH DEV FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder playstore-icon --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder ic_launcher-web --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type round --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type  launcher --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type round --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type launcher --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type round --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type launcher --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type round --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type launcher --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type round --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type launcher --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder playstore-icon --icon-type launcher --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder ic_launcher-web --icon-type launcher --dev
+
+====================================================================================================================================================
+WITH LIB FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-ldpi -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder playstore-icon -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder ic_launcher-web -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type round -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type  launcher -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type round -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type launcher -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type round -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type launcher -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type round -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type launcher -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type round -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type launcher -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder playstore-icon --icon-type launcher -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder ic_launcher-web --icon-type launcher -l
+
+====================================================================================================================================================
+WITH LIB AND DEV FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-ldpi -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder playstore-icon -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder ic_launcher-web -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type round -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --icon-type  launcher -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type round -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --icon-type launcher -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type round -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --icon-type launcher -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type round -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --icon-type launcher -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type round -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --icon-type launcher -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder playstore-icon --icon-type launcher -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform android --folder ic_launcher-web --icon-type launcher -l --dev
+
+====================================================================================================================================================
+WITHOUT DEV AND LIB FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x
+
+====================================================================================================================================================
+WITH DEV FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x --dev
+
+====================================================================================================================================================
+WITH LIB FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x -l
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x -l
+
+====================================================================================================================================================
+WITH LIB AND DEV FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x -l --dev
+./dist/IconSplashLib/IconSplashLib --icon PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x -l --dev
+
+====================================================================================================================================================
+====================================================================================================================================================
+                                            WITH LIBRARY AND WITH PROJECT PATH
+====================================================================================================================================================
+====================================================================================================================================================
+
+====================================================================================================================================================
+WITHOUT DEV AND LIB FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type foreground
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type round
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type  launcher
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type foreground
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type round
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type launcher
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type foreground
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type round
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type launcher
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type foreground
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type round
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type launcher
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type foreground
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type round
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type launcher
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --p PROJECT_PATH -icon-type foreground
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon --p PROJECT_PATH -icon-type launcher
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --p PROJECT_PATH -icon-type launcher
+
+====================================================================================================================================================
+WITH DEV FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type round --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type  launcher --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type round --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type launcher --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type round --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type launcher --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type round --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type launcher --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type round --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type launcher --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --p PROJECT_PATH -icon-type foreground --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon --p PROJECT_PATH -icon-type launcher --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --p PROJECT_PATH -icon-type launcher --dev
+
+====================================================================================================================================================
+WITH LIB FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type round -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type  launcher -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type round -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type launcher -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type round -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type launcher -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type round -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type launcher -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type round -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type launcher -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --p PROJECT_PATH -icon-type foreground -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon --p PROJECT_PATH -icon-type launcher -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --p PROJECT_PATH -icon-type launcher -l
+
+====================================================================================================================================================
+WITH LIB AND DEV FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type round -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-mdpi --p PROJECT_PATH -icon-type  launcher -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type round -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-hdpi --p PROJECT_PATH -icon-type launcher -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type round -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xhdpi --p PROJECT_PATH -icon-type launcher -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type round -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxhdpi --p PROJECT_PATH -icon-type launcher -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type round -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-xxxhdpi --p PROJECT_PATH -icon-type launcher -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder mipmap-ldpi --p PROJECT_PATH -icon-type foreground -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder playstore-p PROJECT_PATH -icon --p PROJECT_PATH -icon-type launcher -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform android --folder ic_launcher-web --p PROJECT_PATH -icon-type launcher -l --dev
+
+====================================================================================================================================================
+WITHOUT DEV AND LIB FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x
+
+====================================================================================================================================================
+WITH DEV FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x --dev
+
+====================================================================================================================================================
+WITH LIB FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x -l
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x -l
+
+====================================================================================================================================================
+WITH LIB AND DEV FLAG
+====================================================================================================================================================
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@2x -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-20x20@3x -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@2x -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-29x29@3x -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@2x -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-40x40@3x -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@2x -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-60x60@3x -l --dev
+./dist/IconSplashLib/IconSplashLib -p PROJECT_PATH -i PNG_IMAGE_PATH --platform ios --folder AppIcon-1024x1024@1x -l --dev

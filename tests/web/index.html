@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Generation Progress</title>
+    <style>
+        #progress-container {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 25px;
+            margin: 20px 0;
+            display: none; /* Hide progress bar initially */
+        }
+
+        #progress-bar {
+            width: 0%;
+            height: 30px;
+            background-color: #76c7c0;
+            border-radius: 25px;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Icon Generation Progress</h1>
+    <button id="start-android-button">Generate Android Icons</button>
+    <button id="start-ios-button">Generate iOS Icons</button>
+    <button id="start-splash-button">Generate Splash Screen</button>
+    <div id="progress-container">
+        <div id="progress-bar">0%</div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+
+        document.getElementById('start-android-button').addEventListener('click', () => {
+            startGeneration('android');
+        });
+
+        document.getElementById('start-ios-button').addEventListener('click', () => {
+            startGeneration('ios');
+        });
+
+        document.getElementById('start-splash-button').addEventListener('click', () => {
+            startGeneration('splash');
+        });
+
+        function startGeneration(platform) {
+            console.log(`Button Clicked for ${platform}`);
+            document.getElementById('progress-container').style.display = 'block'; // Show progress bar when button is clicked
+            socket.emit('startIconGeneration', platform);
+        }
+
+        socket.on('progressUpdate', (progress) => {
+            const progressBar = document.getElementById('progress-bar');
+            progressBar.style.width = progress + '%';
+            progressBar.textContent = progress + '%';
+        });
+
+        socket.on('generationComplete', (code) => {
+            console.log(`Icon generation completed with code: ${code}`);
+        });
+    </script>
+</body>
+</html>

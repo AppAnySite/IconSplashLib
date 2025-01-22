@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon and Splash Generation</title>
+    <style>
+        #progress-container {
+            width: 100%;
+            background-color: #f3f3f3;
+            margin-top: 20px;
+        }
+        #progress-bar {
+            width: 0;
+            height: 30px;
+            background-color: #4caf50;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+        }
+        #icon-type-container {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Icon and Splash Generation</h1>
+
+    <label>Select Project Folder:</label>
+    <input type="file" id="project-folder" webkitdirectory directory>
+    <br>
+
+    <label>Select PNG Icon File:</label>
+    <input type="file" id="icon-file" accept="image/png">
+    <br>
+
+    <label>Select SVG Splash File:</label>
+    <input type="file" id="splash-file" accept="image/svg+xml">
+    <br>
+
+    <label>Select Platform:</label>
+    <select id="platform-select">
+        <option value="">Select Platform</option>
+        <option value="android">Android</option>
+        <option value="ios">iOS</option>
+    </select>
+    <br>
+
+    <label>Select Folder:</label>
+    <select id="folder-select">
+        <!-- Options will be updated based on platform selection -->
+    </select>
+    <br>
+
+    <div id="icon-type-container">
+        <label>Select Icon Type:</label>
+        <select id="icon-type-select">
+            <!-- Options will be updated based on platform and folder selection -->
+        </select>
+        <br>
+    </div>
+
+    <button id="start-android-button">Generate Android Icons</button>
+    <button id="start-ios-button">Generate iOS Icons</button>
+    <button id="start-splash-button">Generate Splash Screen</button>
+    
+    <div id="progress-container" style="display: none;">
+        <div id="progress-bar">0%</div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+
+        function uploadFile(file, callback) {
+            console.log('Uploading file:', file);
+            const formData = new FormData();
+            formData.append('file', file);
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Upload response:', data);
+                if (data.success) {
+                    callback(data.filePath);
+                } else {
+                    alert('File upload failed.');
+                }
+            })
+            .catch(error => console.error('Upload error:', error));
+        }
+
+        function updateFolders(platform) {
+            const folderSelect = document.getElementById('folder-select');
+            folderSelect.innerHTML = '';
+            console.log('Updating folders for platform:', platform);
+
+            let folders = [];
+            if (platform === 'android') {
+                folders = ['mipmap-mdpi', 'mipmap-hdpi', 'mipmap-xhdpi', 'mipmap-xxhdpi', 'mipmap-xxxhdpi', 'none'];
+            } else if (platform === 'ios') {
+                folders = ['AppIcon-20x20@1x', 'AppIcon-20x20@2x', 'AppIcon-20x20@3x', 'none'];
+            }
+
+            folders.forEach(folder => {
+                const option = document.createElement('option');
+                option.value = folder;
+                option.textContent = folder;
+                folderSelect.appendChild(option);
+            });
+            console.log('Available folders:', folders);
+        }
+
+        function updateIconTypes(platform) {
+            const iconTypeSelect = document.getElementById('icon-type-select');
+            const iconTypeContainer = document.getElementById('icon-type-container');
+            iconTypeSelect.innerHTML = '';
+            console.log('Updating icon types for platform:', platform);
+
+            if (platform === 'android') {
+                iconTypeContainer.style.display = 'block';
+                let iconTypes = ['ic_launcher_foreground', 'ic_launcher_round', 'ic_launcher', 'none'];
+                iconTypes.forEach(iconType => {
+                    const option = document.createElement('option');
+                    option.value = iconType;
+                    option.textContent = iconType;
+                    iconTypeSelect.appendChild(option);
+                });
+                console.log('Available icon types:', iconTypes);
+            } else {
+                iconTypeContainer.style.display = 'none';
+            }
+        }
+
+        document.getElementById('platform-select').addEventListener('change', (event) => {
+            const platform = event.target.value;
+            console.log('Platform selected:', platform);
+            updateFolders(platform);
+            updateIconTypes(platform);
+        });
+
+        document.getElementById('start-android-button').addEventListener('click', () => {
+            const projectFolder = document.getElementById('project-folder').files;
+            const iconFile = document.getElementById('icon-file').files[0];
+            const platform = 'android';
+            const folder = document.getElementById('folder-select').value;
+            const iconType = document.getElementById('icon-type-select').value;
+
+            console.log('Generating Android icons with:', {
+                projectFolder,
+                iconFile,
+                folder,
+                iconType
+            });
+
+            if (projectFolder.length > 0 && iconFile && folder && iconType) {
+                const projectPath = projectFolder[0].webkitRelativePath.split('/')[0];
+                uploadFile(iconFile, (iconPath) => {
+                    startGeneration(platform, projectPath, iconPath, null, folder, iconType);
+                });
+            } else {
+                alert('Please select a project folder, icon file, folder, and icon type');
+            }
+        });
+
+        document.getElementById('start-ios-button').addEventListener('click', () => {
+            const projectFolder = document.getElementById('project-folder').files;
+            const iconFile = document.getElementById('icon-file').files[0];
+            const platform = 'ios';
+            const folder = document.getElementById('folder-select').value;
+            const iconType = document.getElementById('icon-type-select').value;
+
+            console.log('Generating iOS icons with:', {
+                projectFolder,
+                iconFile,
+                folder,
+                iconType
+            });
+
+            if (projectFolder.length > 0 && iconFile && folder) {
+                const projectPath = projectFolder[0].webkitRelativePath.split('/')[0];
+                uploadFile(iconFile, (iconPath) => {
+                    startGeneration(platform, projectPath, iconPath, null, folder, iconType);
+                });
+            } else {
+                alert('Please select a project folder, icon file, folder');
+            }
+        });
+
+        document.getElementById('start-splash-button').addEventListener('click', () => {
+            const projectFolder = document.getElementById('project-folder').files;
+            const splashFile = document.getElementById('splash-file').files[0];
+            const platform = 'splash';
+
+            console.log('Generating splash screen with:', {
+                projectFolder,
+                splashFile
+            });
+
+            if (projectFolder.length > 0 && splashFile) {
+                const projectPath = projectFolder[0].webkitRelativePath.split('/')[0];
+                uploadFile(splashFile, (splashPath) => {
+                    startGeneration(platform, projectPath, null, splashPath, null, null);
+                });
+            } else {
+                alert('Please select a project folder and splash file');
+            }
+        });
+
+        function startGeneration(platform, projectPath, iconPath, splashPath, folder, iconType) {
+            console.log('Starting generation with data:', {
+                platform,
+                projectPath,
+                iconPath,
+                splashPath,
+                folder,
+                iconType
+            });
+            document.getElementById('progress-container').style.display = 'block';
+            socket.emit('startIconGeneration', { platform, projectPath, iconPath, splashPath, folder, iconType });
+        }
+
+        socket.on('progressUpdate', (progress) => {
+            console.log('Progress update:', progress);
+            const progressBar = document.getElementById('progress-bar');
+            progressBar.style.width = progress + '%';
+            progressBar.textContent = progress + '%';
+        });
+
+        socket.on('generationComplete', (code) => {
+            console.log(`Generation completed with code: ${code}`);
+            if (code === 0) {
+                alert('Generation complete!');
+            } else {
+                alert('Generation failed!');
+            }
+        });
+    </script>
+</body>
+</html>
