@@ -9,7 +9,7 @@ rm -rf build dist IconSplashLib.spec
 
 # Generate the initial spec file
 echo "Generating initial spec file..."
-pyinstaller --name=IconSplashLib main.py
+pyinstaller --name=aas-core-iconsplashlib main.py
 
 # Modify the spec file to include additional files and directories
 echo "Modifying spec file to include additional files and directories..."
@@ -44,7 +44,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='IconSplashLib',
+    name='aas-core-iconsplashlib',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -61,7 +61,7 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='IconSplashLib',
+    name='aas-core-iconsplashlib',
 )
 EOL
 
@@ -69,4 +69,4 @@ EOL
 echo "Building the executable..."
 pyinstaller -y IconSplashLib.spec
 
-echo "Build completed. The executable is in the 'dist/IconSplashLib' directory."
+echo "Build completed. The executable is in the 'dist/aas-core-iconsplashlib' directory."
